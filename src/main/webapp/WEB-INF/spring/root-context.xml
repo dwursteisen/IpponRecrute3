@@ -17,22 +17,10 @@ http://www.springframework.org/schema/context http://www.springframework.org/sch
 	<context:component-scan base-package="fr.ippon.rh.service" />
 
 	<util:list id="listEtape3">
-		<ref bean="encoderX"/>
-		<ref bean="encoderX"/>
-		<ref bean="encoderX"/>
-		<ref bean="encoderX"/>
-		<ref bean="encoderX"/>
-		<ref bean="encoderX"/>
-		<ref bean="encoderX"/>
-		<ref bean="encoderX"/>
-		<ref bean="encoderX"/>
-		<ref bean="encoderX"/>
-		<ref bean="encoderX"/>
-		<ref bean="encoderX"/>
-		<ref bean="encoderX"/>
-		<ref bean="encoderX"/>
-		<ref bean="encoderX"/>
-		<ref bean="encoderX"/>
+		<ref bean="encoder1"/>
+		<ref bean="encoder2"/>
+		<ref bean="encoder3"/>
+		<ref bean="encoder4"/>
 	</util:list>
 	
 </beans>
